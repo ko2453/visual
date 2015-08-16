@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:projekt"
-        xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" x:Class="projekt.MainWindow"
+        xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="projekt.MainWindow"
         mc:Ignorable="d" Height="710.5" Width="1296" Title="Edytor tekstu">
     <Grid>
 
@@ -25,7 +25,16 @@
                 <Custom:RibbonGroup x:Name="czonkagroup" Header="Czcionka" Margin="0" Width="198.197">
                     <Custom:RibbonComboBox x:Name="fontcombo" Label="Czcionka" />
                     <Custom:RibbonButton x:Name="upbutton" HorizontalAlignment="Left" Label="Powiększ" Margin="0,34,0,-29" Click="upbutton_Click"/>
-                    <Custom:RibbonComboBox x:Name="sizecombo" Label="Rozmiar" Margin="-152,28,0,-17" Width="154" HorizontalAlignment="Left" VerticalAlignment="Center" Initialized="sizecombo_Initialized_1" IsEnabledChanged="sizecombo_IsEnabledChanged"/>
+                    <Custom:RibbonComboBox x:Name="sizecombo" Label="Rozmiar" Margin="-152,28,0,-17" Width="154" HorizontalAlignment="Left" VerticalAlignment="Center" IsEditable="True"  >
+                        <Custom:RibbonGallery SelectedValuePath="Content" SelectionChanged="RibbonGallery_SelectionChanged">
+                            <Custom:RibbonGalleryCategory >
+                                <Custom:RibbonGalleryItem Content="1"/>
+                                <Custom:RibbonGalleryItem Content="2"/>
+                                <Custom:RibbonGalleryItem Content="50"/>
+                            </Custom:RibbonGalleryCategory>
+                        </Custom:RibbonGallery>
+
+                    </Custom:RibbonComboBox>
                 </Custom:RibbonGroup>
 
             </Custom:RibbonTab>

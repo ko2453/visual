@@ -30,6 +30,7 @@ namespace projekt
         public MainWindow()
         {
             InitializeComponent();
+           
             
 
         }
@@ -79,10 +80,7 @@ namespace projekt
 
         private void upbutton_Click(object sender, RoutedEventArgs e)
         {
-            if (this.richTextBox.Selection.IsEmpty)
-                this.richTextBox.FontSize = 30.0;
-            else
-                this.richTextBox.Selection.ApplyPropertyValue(TextElement.FontFamilyProperty, "Comic Sans MS");
+            
         }
 
         private void sizecombo_IsEnabledChanged(object sender, DependencyPropertyChangedEventArgs e)
@@ -94,5 +92,17 @@ namespace projekt
         {
 
         }
+
+        private void RibbonGallery_SelectionChanged(object sender, System.Windows.RoutedPropertyChangedEventArgs<object> e)
+        {
+            if (this.richTextBox.Selection.IsEmpty)
+                this.richTextBox.FontSize = 30.0;
+            else
+                this.richTextBox.Selection.ApplyPropertyValue(TextElement.FontSizeProperty, sizecombo.Text);
+        }
+
+       
+
+       
     }
 }
