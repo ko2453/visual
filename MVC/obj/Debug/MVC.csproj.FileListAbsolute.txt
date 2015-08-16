@@ -1,0 +1,8 @@
+F:\visual\MVC\bin\Debug\MVC.exe.config
+F:\visual\MVC\bin\Debug\MVC.exe
+F:\visual\MVC\bin\Debug\MVC.pdb
+F:\visual\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+F:\visual\MVC\obj\Debug\MVC.Properties.Resources.resources
+F:\visual\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+F:\visual\MVC\obj\Debug\MVC.exe
+F:\visual\MVC\obj\Debug\MVC.pdb
