@@ -1,0 +1,52 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekt"
+        xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" x:Class="projekt.MainWindow"
+        mc:Ignorable="d" Height="710.5" Width="1296" Title="Edytor tekstu">
+    <Grid>
+
+        <Custom:Ribbon x:Name="ribbon" HorizontalAlignment="Left" Margin="0,2.931,0,0" VerticalAlignment="Top" Height="Auto" Width="{DynamicResource {x:Static SystemParameters.FullPrimaryScreenWidthKey}}">
+            <Custom:Ribbon.ApplicationMenu>
+                <Custom:RibbonApplicationMenu HorizontalAlignment="Left" FontFamily="MS Reference Sans Serif" FontSize="13" SmallImageSource="image/logo.png" >
+                    <Custom:RibbonMenuItem x:Name="nowy_dok" Header="Nowy dokument" ImageSource="image/new_doc.png" Click="nowy_dok_Click"/>
+                    <Custom:RibbonMenuItem x:Name="open_dok" Header="Otwórz dokument" ImageSource="image/open_doc.png" Click="open_dok_Click"/>
+                    <Custom:RibbonMenuItem Header="Zapisz" ImageSource="image/save_doc.png"/>
+                </Custom:RibbonApplicationMenu>
+            </Custom:Ribbon.ApplicationMenu>
+            <Custom:RibbonTab Header="Narzędzia">
+                <Custom:RibbonGroup Header="Schowek" Margin="0" Width="138.023" Height="78">
+                    <Custom:RibbonButton x:Name="wklej" Label="Wklej" LargeImageSource="image/paste.png" Click="wklej_Click" />
+                    <Custom:RibbonButton Label="Wytnij" SmallImageSource="image/cut.png" Margin="15.333,3,-15.333,-3"/>
+                    <Custom:RibbonButton Label="Kopiuj" SmallImageSource="image/copy.png" Margin="15.667,10,-17.628,-10" RenderTransformOrigin="0.837,0.417"/>
+                </Custom:RibbonGroup>
+                <Custom:RibbonGroup x:Name="czonkagroup" Header="Czcionka" Margin="0" Width="198.197">
+                    <Custom:RibbonComboBox x:Name="fontcombo" Label="Czcionka" />
+                    <Custom:RibbonButton x:Name="upbutton" HorizontalAlignment="Left" Label="Powiększ" Margin="0,34,0,-29" Click="upbutton_Click"/>
+                    <Custom:RibbonComboBox x:Name="sizecombo" Label="Rozmiar" Margin="-152,28,0,-17" Width="154" HorizontalAlignment="Left" VerticalAlignment="Center" Initialized="sizecombo_Initialized_1" IsEnabledChanged="sizecombo_IsEnabledChanged"/>
+                </Custom:RibbonGroup>
+
+            </Custom:RibbonTab>
+            <Custom:RibbonTab Header="Opcje" Margin="2,0,-2,0"/>
+        </Custom:Ribbon>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="405.069" Margin="0,140.931,0,0" VerticalAlignment="Top" Width="{DynamicResource {x:Static SystemParameters.PrimaryScreenWidthKey}}" TextChanged="richTextBox_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="404,78,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBoxItem IsEnabled="False" IsSelected="True"/>
+            <ComboBoxItem x:Name="Text4"/>
+            <ComboBoxItem x:Name="asdasdasd"/>
+            <ComboBoxItem/>
+            <ComboBoxItem/>
+            <ComboBoxItem Background="Transparent"/>
+        </ComboBox>
+
+
+    </Grid>
+</Window>
