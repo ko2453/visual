@@ -7,7 +7,7 @@
         xmlns:Custom="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" x:Class="projekt.MainWindow"
         mc:Ignorable="d" Height="710.5" Width="1296" Title="Edytor tekstu">
     <Grid>
-sadasdsad
+
         <Custom:Ribbon x:Name="ribbon" HorizontalAlignment="Left" Margin="0,2.931,0,0" VerticalAlignment="Top" Height="Auto" Width="{DynamicResource {x:Static SystemParameters.FullPrimaryScreenWidthKey}}">
             <Custom:Ribbon.ApplicationMenu>
                 <Custom:RibbonApplicationMenu HorizontalAlignment="Left" FontFamily="MS Reference Sans Serif" FontSize="13" SmallImageSource="image/logo.png" >
