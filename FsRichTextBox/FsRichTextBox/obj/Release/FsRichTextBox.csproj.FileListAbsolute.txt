@@ -1,0 +1,10 @@
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\bin\Release\FsRichTextBox.dll
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\bin\Release\FsRichTextBox.pdb
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.baml
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.g.cs
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox_MarkupCompile.cache
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.g.resources
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsWpfControls.FsRichTextBox.Properties.Resources.resources
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.csproj.GenerateResource.Cache
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.dll
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBox\obj\Release\FsRichTextBox.pdb

@@ -1,0 +1,16 @@
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\bin\Debug\ComboBoxDataBinding.exe
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\bin\Debug\ComboBoxDataBinding.pdb
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.csprojResolveAssemblyReference.cache
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\MainWindow.g.cs
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\App.g.cs
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding_MarkupCompile.cache
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding_MarkupCompile.lref
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\MainWindow.baml
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.g.resources
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.Properties.Resources.resources
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.csproj.GenerateResource.Cache
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.exe
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\ComboBoxDataBinding.pdb
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\View\OpenFileDialog.g.cs
+F:\Users\Przemek\Downloads\ComboBoxDataBinding\ComboBoxDataBinding\obj\x86\Debug\View\OpenFileDialog.baml

@@ -1,0 +1,16 @@
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\bin\Release\FsRichTextBoxDemo.exe
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\bin\Release\FsRichTextBoxDemo.pdb
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\bin\Release\FsRichTextBox.dll
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\bin\Release\FsRichTextBox.pdb
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.csprojResolveAssemblyReference.cache
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\View\MainWindow.g.cs
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\App.g.cs
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo_MarkupCompile.cache
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo_MarkupCompile.lref
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\View\MainWindow.baml
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.g.resources
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.Properties.Resources.resources
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.csproj.GenerateResource.Cache
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.exe
+F:\Users\Przemek\Downloads\SourceCode\FsRichTextBox\FsRichTextBoxDemo\obj\x86\Release\FsRichTextBoxDemo.pdb

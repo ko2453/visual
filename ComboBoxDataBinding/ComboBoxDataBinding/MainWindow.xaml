@@ -1,0 +1,36 @@
+﻿<Window x:Class="ComboBoxDataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="527"
+        xmlns:ViewModels="clr-namespace:ComboBoxDataBinding.ViewModels"
+        xmlns:View="clr-namespace:ComboBoxDataBinding.View">
+
+    <Window.DataContext>
+        <ViewModels:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="0,0,2,0">
+        <StackPanel Orientation="Vertical" Margin="91,8,230,222">
+
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                <Label Content="Font:" />
+                <ComboBox 
+                    Width="150" 
+                    ItemsSource="{Binding FontFamilies, Mode=OneWay}"
+                    DisplayMemberPath="Font"                   
+                    />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+                <Label Content="Size:" />
+                <ComboBox 
+                    Width="150" 
+                    ItemsSource="{Binding FontSizes, Mode=OneWay}"
+                    DisplayMemberPath="SizeFont"                    
+                    />
+            </StackPanel>
+
+        </StackPanel>
+        <View:OpenFileDialog Margin="32,109,49,67" RenderTransformOrigin="0.5,0.5"/> 
+    </Grid>
+</Window>
